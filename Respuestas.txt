@@ -1,0 +1,11 @@
+(En mi repositorio aparecen dos contribuidores porque usé una de las computadoras del laboratorio en la cuál dejaron la sesión abierta en Git).
+
+Al utilizar el comando git checkout master, en la carpeta solo se muestran los archivos que se subieron en el master.
+
+Si se coloca el git checkout Opcion_2 (el branch que creamos anteriormente), se muestran los archivos de master y también los archivos que se subieron en el branch.
+
+Cuando coloqué el comando gitk --all me mostró el historial de todos los cambios que realicé en el repositorio, no hay diferencia si lo hacemos en el master o en
+algunos de los branch ya que el comando indica "all", es decir, se va a mostrar todo lo del repositorio.
+
+A la hora de combinar el branch en el master usando el git merge Opcion_2 y luego el gitk --all la única diferencia que se puede apreciar es que el branch ahora
+pertenece al master.
